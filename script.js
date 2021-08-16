@@ -52,7 +52,7 @@ function inverseArray(color){
   color = "0x" + color[1]
   console.log(color)
   let white = 0xffffff
-  return [white - color, parseInt(color), white - color /2] 
+  return [white - color, white - (color /2), parseInt(color)] 
 }
 
 
