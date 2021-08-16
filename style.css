@@ -1,0 +1,12 @@
+
+div{
+  animation-name: slideinLeft;
+  position: absolute;
+}
+
+@keyframes slideinLeft {
+  from {
+    transform: translate(-120px);
+    opacity: -100;
+  }
+} 
